@@ -20,10 +20,10 @@ public interface WebConfig extends Config {
     String browserSize();
 
     @Key("isRemote")
-    @DefaultValue("true")
+    @DefaultValue("false")
     boolean isRemote();
 
     @Key("remoteUrl")
-    @DefaultValue("http://ubuntu@3.70.160.227:4444/wd/hub")
+    @DefaultValue("http://ubuntu@3.67.10.1:4444/wd/hub")
     String remoteUrl();
 }
