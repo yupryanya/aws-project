@@ -20,7 +20,7 @@ public interface WebConfig extends Config {
     String browserSize();
 
     @Key("isRemote")
-    @DefaultValue("false")
+    @DefaultValue("true")
     boolean isRemote();
 
     @Key("remoteUrl")
